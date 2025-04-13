@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'super_lobster';
+    src: url(assets/fonts/super_lobster.woff2) format("woff2");
+    src: url(assets/fonts/super_lobster.woff) format("woff");
+    font-weight: bold;
+}
+
+.topnav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+
+.topnav a {
+    float: right;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'super_lobster';
+    font-size: 24px;
+}
