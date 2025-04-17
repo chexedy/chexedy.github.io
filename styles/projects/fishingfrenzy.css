@@ -63,8 +63,26 @@ h1 {
 }
 
 div.about {
+    overflow: hidden;
     text-align: center;
     color: #ffffff;
     font-family: "Inconsolata";
     font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+div.aspectratio iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw; 
+    height: 52vw;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: "Special Gothic Expanded One";
+    text-align: center;
+    font-size: 40px;
 }
