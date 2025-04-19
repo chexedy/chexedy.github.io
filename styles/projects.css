@@ -73,8 +73,8 @@ div.list {
     overflow: hidden;
     color: #ffffff;
     font-family: "Special Gothic Expanded One";
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 div.list a{
@@ -84,6 +84,7 @@ div.list a{
 div.list h4{
     font-family: "Inconsolata";
     font-size: 25px;
+    margin-left: 5%;
 }
 
 div.list a:link {

@@ -54,3 +54,28 @@ div.bottomnav a {
 div.bottomnav a:hover {
     color: rgb(246, 175, 159);
 }
+
+h1 {
+    color: #ffffff;
+    font-family: "Special Gothic Expanded One";
+    font-size: 60px;
+    text-align: center;
+}
+
+div.list {
+    overflow: hidden;
+    color: #ffffff;
+    font-family: "Special Gothic Expanded One";
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.list h3{
+    font-size: 40px;
+}
+
+div.list h4{
+    font-family: "Inconsolata";
+    font-size: 25px;
+    margin-left: 5%;
+}
