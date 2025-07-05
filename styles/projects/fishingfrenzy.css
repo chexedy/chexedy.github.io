@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Special+Gothic+Expanded+One&display=swap');
-
-.special-gothic-expanded-one-regular {
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 .inconsolata-uniquifier {
     font-family: "Inconsolata", monospace;
@@ -15,6 +10,12 @@
       "wdth" 100;
   }
 
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 div.topnav {
     background-color: #ffffff;
     overflow: hidden;
@@ -22,16 +23,16 @@ div.topnav {
 
 div.topnav a {
     float: right;
-    color: rgb(245, 128, 101);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
-    font-family: "Special Gothic Expanded One";
+    font-family: "Ubuntu";
     font-size: 24px;
 }
 
 div.topnav a:hover {
-    color: rgb(246, 175, 159);
+    color: rgb(94, 94, 94);
 }
 
 div.bottomnav {
@@ -47,17 +48,17 @@ div.bottomnav a {
     text-align: center;
     padding: 8px 15px;
     text-decoration: none;
-    font-family: "Special Gothic Expanded One";
+    font-family: "Ubuntu";
     font-size: 16px;
 }
 
 div.bottomnav a:hover {
-    color: rgb(246, 175, 159);
+    color: rgb(94, 94, 94);
 }
 
 h1 {
     color: #ffffff;
-    font-family: "Special Gothic Expanded One";
+    font-family: "Ubuntu";
     font-size: 60px;
     text-align: center;
 }
@@ -82,7 +83,7 @@ div.aspectratio iframe {
 
 h3 {
     color: #ffffff;
-    font-family: "Special Gothic Expanded One";
+    font-family: "Ubuntu";
     text-align: center;
     font-size: 40px;
 }
